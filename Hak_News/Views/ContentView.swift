@@ -20,7 +20,7 @@ struct ContentView: View {
                 }
             }
         }
-        .navigationTitle("Haker News")
+        .navigationTitle("Haсker News")
         }
         .onAppear { // Добавляет действие для выполнения при появлении этого представления.
             self.networkManaeger.fetchData()
