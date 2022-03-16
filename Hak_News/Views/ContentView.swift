@@ -9,13 +9,15 @@ import SwiftUI
 
 struct ContentView: View {
     
-   @ObservedObject var networkManaeger = NetworkManager()
+    @ObservedObject var networkManaeger = NetworkManager()
     
     var body: some View {
         NavigationView { List (networkManaeger.posts){ post in
-            HStack {
-                Text(String(post.points))
-                Text(post.title)
+            NavigationLink(destination: DetailView(url: post.url)) { //ссылка на пост в DetailView
+                HStack {
+                    Text(String(post.points))
+                    Text(post.title)
+                }
             }
         }
         .navigationTitle("Haker News")
