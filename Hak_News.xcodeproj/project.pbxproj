@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AFA1ECE22805C6B0007ACFD5 /* Screenshot.png in Resources */ = {isa = PBXBuildFile; fileRef = AFA1ECE02805C6B0007ACFD5 /* Screenshot.png */; };
+		AFA1ECE32805C6B0007ACFD5 /* Screenshot1.png in Resources */ = {isa = PBXBuildFile; fileRef = AFA1ECE12805C6B0007ACFD5 /* Screenshot1.png */; };
 		AFA3164427E20813002DD589 /* Hak_NewsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA3164327E20813002DD589 /* Hak_NewsApp.swift */; };
 		AFA3164627E20813002DD589 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA3164527E20813002DD589 /* ContentView.swift */; };
 		AFA3164827E20813002DD589 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFA3164727E20813002DD589 /* Assets.xcassets */; };
@@ -18,6 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AFA1ECE02805C6B0007ACFD5 /* Screenshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot.png; sourceTree = "<group>"; };
+		AFA1ECE12805C6B0007ACFD5 /* Screenshot1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot1.png; sourceTree = "<group>"; };
 		AFA3164027E20813002DD589 /* Hak_News.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hak_News.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFA3164327E20813002DD589 /* Hak_NewsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hak_NewsApp.swift; sourceTree = "<group>"; };
 		AFA3164527E20813002DD589 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -40,6 +44,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AFA1ECDF2805C682007ACFD5 /* PreviewApp */ = {
+			isa = PBXGroup;
+			children = (
+				AFA1ECE02805C6B0007ACFD5 /* Screenshot.png */,
+				AFA1ECE12805C6B0007ACFD5 /* Screenshot1.png */,
+			);
+			path = PreviewApp;
+			sourceTree = "<group>";
+		};
 		AFA3163727E20813002DD589 = {
 			isa = PBXGroup;
 			children = (
@@ -71,6 +84,7 @@
 		AFA3164927E20813002DD589 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
+				AFA1ECDF2805C682007ACFD5 /* PreviewApp */,
 				AFA3164A27E20813002DD589 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
@@ -153,6 +167,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AFA1ECE32805C6B0007ACFD5 /* Screenshot1.png in Resources */,
+				AFA1ECE22805C6B0007ACFD5 /* Screenshot.png in Resources */,
 				AFA3164B27E20813002DD589 /* Preview Assets.xcassets in Resources */,
 				AFA3164827E20813002DD589 /* Assets.xcassets in Resources */,
 			);
@@ -313,7 +329,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "ru.ivselin.Hak-News";
+				PRODUCT_BUNDLE_IDENTIFIER = "ru.ivselin.Hak-News-SwiftUI";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -341,7 +357,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "ru.ivselin.Hak-News";
+				PRODUCT_BUNDLE_IDENTIFIER = "ru.ivselin.Hak-News-SwiftUI";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
